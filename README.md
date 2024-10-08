@@ -9,7 +9,7 @@ The Spam Email Detection system works by converting the text data into a numeric
 ### Features
 
 - **Vectorization**: Using `CountVectorizer` to convert text data into a matrix of token counts.
-- **Model Training**: A classification model is trained on the vectorized data to predict whether an email is spam.
+- **Model Training**: A classification model is trained on the vectorized data to predict whether an email is spam using `MultinomialNB`.
 - **Evaluation**: Model performance is evaluated using accuracy, precision, recall, and F1-score.
 
 ## Installation
